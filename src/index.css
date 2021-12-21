@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif, Poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Avenir-Roman'; 
+  src: url(./assets/fonts/Avenir-Roman.otf)
+}
+
+@font-face {
+  font-family: 'Poppins'; 
+  src: url(./assets/fonts/Poppins-Regular.ttf)
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url(./assets/fonts/Poppins-Bold.ttf)
+}
+
+@font-face {
+  font-family: 'DQHT'; 
+  src: url(./assets/fonts/DongQingHeiTi-1.otf)
+}
