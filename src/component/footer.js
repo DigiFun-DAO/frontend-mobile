@@ -4,8 +4,8 @@ export default function Footer() {
 
   return (
     <div className="footer" id="about">
-      <div className="connect">Connect</div>
       <div className="connect_frame">
+        <div className="connect">Connect</div>
         <input className="connect_input" placeholder="Enter email address"/>
         <img className="connect_send_button" src={require("../assets/Button-Send.svg").default}/>
       </div>

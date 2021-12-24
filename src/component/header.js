@@ -42,6 +42,9 @@ class Header extends React.Component {
         <div className="header_frame">
           <button className={this.state.button_selected[0] === true ? "button_selected" : "button_empty"}
                   style={{cursor: 'pointer'}}
+                  onMouseEnter={() => {
+                    this.setState({button_selected: [true, false, false]})
+                  }}
                   onClick={() => {
                     history.push('/#/product')
                     window.location.reload()
@@ -50,6 +53,9 @@ class Header extends React.Component {
           </button>
           <button className={this.state.button_selected[1] === true ? "button_selected" : "button_empty"}
                   style={{cursor: 'pointer'}}
+                  onMouseEnter={() => {
+                    this.setState({button_selected: [false, true, false]})
+                  }}
                   onClick={() => {
                     history.push('/')
                     window.location.reload()
@@ -59,6 +65,9 @@ class Header extends React.Component {
           </button>
           <button className={this.state.button_selected[2] === true ? "button_selected" : "button_empty"}
                   style={{cursor: 'pointer'}}
+                  onMouseEnter={() => {
+                    this.setState({button_selected: [false, false, true]})
+                  }}
                   onClick={() => {
                     history.push('/#/about')
                     window.location.reload()
