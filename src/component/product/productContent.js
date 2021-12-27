@@ -46,9 +46,9 @@ class ProductContent extends React.Component {
                   <div className="product_content_detail_comments_intro">
                     <div className="product_content_detail_comments_intro_title">Evil Snowman</div>
                     <div className="product_content_detail_comments_intro_source">Polygon</div>
-                    <img src={require('../../assets/class_dress.svg').default}
+                    <img src={require('../../assets/class_head.png').default}
                          className="product_content_detail_comments_intro_class"/>
-                    <img src={require('../../assets/sex_male.svg').default}
+                    <img src={require('../../assets/sex_all.svg').default}
                          className="product_content_detail_comments_intro_sex"/>
                     <img src={require('../../assets/prize_icon.png').default}
                          className="product_content_detail_prize_icon"/>
@@ -69,7 +69,7 @@ class ProductContent extends React.Component {
                     <div className="product_content_detail_comments_intro_source">Polygon</div>
                     <img src={require('../../assets/class_dress.svg').default}
                          className="product_content_detail_comments_intro_class"/>
-                    <img src={require('../../assets/sex_male.svg').default}
+                    <img src={require('../../assets/sex_all.svg').default}
                          className="product_content_detail_comments_intro_sex"/>
                     <img src={require('../../assets/prize_icon.png').default}
                          className="product_content_detail_prize_icon"/>
@@ -86,7 +86,7 @@ class ProductContent extends React.Component {
                 </div>
                 <div className="product_content_detail_comments">
                   <div className="product_content_detail_comments_intro">
-                    <div className="product_content_detail_comments_intro_title">Evil Snowman</div>
+                    <div className="product_content_detail_comments_intro_title">R·G YEARning</div>
                     <div className="product_content_detail_comments_intro_source">Polygon</div>
                     <img src={require('../../assets/class_dress.svg').default}
                          className="product_content_detail_comments_intro_class"/>
@@ -107,9 +107,9 @@ class ProductContent extends React.Component {
                 </div>
                 <div className="product_content_detail_comments">
                   <div className="product_content_detail_comments_intro">
-                    <div className="product_content_detail_comments_intro_title">Evil Snowman</div>
+                    <div className="product_content_detail_comments_intro_title">R·G YEARning</div>
                     <div className="product_content_detail_comments_intro_source">Polygon</div>
-                    <img src={require('../../assets/class_dress.svg').default}
+                    <img src={require('../../assets/class_pants.png').default}
                          className="product_content_detail_comments_intro_class"/>
                     <img src={require('../../assets/sex_male.svg').default}
                          className="product_content_detail_comments_intro_sex"/>
