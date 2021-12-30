@@ -229,17 +229,25 @@
 }
 
 .slogan_buttons_join{
-    position: static;
+    position: relative;
     width: 180px;
-    /*height: 52px;*/
+}
+
+.slogan_buttons_join_selected{
+    position: relative;
+    width: 180px;
+    top: -10px;
 }
 
 .slogan_buttons_voting{
-    position: static;
+    position: relative;
     width: 180px;
-    /*height: 52px;*/
-    left: 155px;
-    top: 0px;
+}
+
+.slogan_buttons_voting_selected{
+    position: relative;
+    width: 180px;
+    top: -10px;
 }
 
 .blur_yellow{
@@ -537,9 +545,21 @@
     align-items: center;
     padding: 14px 34px;
 
-    position: static;
-    height: 100px;
+    position: relative;
+    height: 130px;
     margin-top: 50px;
+}
+
+.button_explore_selected{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 34px;
+
+    position: relative;
+    height: 130px;
+    margin-top: 40px;
 }
 
 .DAO_frame{
@@ -675,11 +695,19 @@
 }
 
 .DAO_button{
-    position: static;
+    position: relative;
     /*width: 153px;*/
-    height: 100px;
+    height: 110px;
     margin-left: -27px;
     margin-top: 40px;
+}
+
+.DAO_button_selected{
+    position: relative;
+    /*width: 153px;*/
+    height: 110px;
+    margin-left: -27px;
+    margin-top: 30px;
 }
 
 .footer{
@@ -760,20 +788,24 @@
     margin-top: 120px;
 }
 
+.email_icon{
+    position: static;
+    width: 32px;
+    height: 32px;
+}
+
 .twitter_icon{
     position: static;
     width: 32px;
     height: 32px;
-    left: 0px;
-    top: 0px;
+    margin-left: 25px;
 }
 
 .discord_icon{
     position: static;
     width: 32px;
     height: 32px;
-    margin-left: 32px;
-    top: 0px;
+    margin-left: 25px;
 }
 
 .footer_words{

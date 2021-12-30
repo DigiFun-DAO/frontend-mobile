@@ -10,7 +10,7 @@ const products = [
     title: "Evil Snowman",
     url: "https://market.decentraland.org/contracts/0x622a009f894bf7c6ba069a31217be23f327e95de/items/0",
     source: "Polygon",
-    prize: 100,
+    prize: 25,
     class: "class_head.png",
     sex: "sex_all.svg"
   },
@@ -19,7 +19,7 @@ const products = [
     title: "Evil Snowman",
     url: "https://market.decentraland.org/contracts/0x622a009f894bf7c6ba069a31217be23f327e95de/items/1",
     source: "Polygon",
-    prize: 100,
+    prize: 25,
     class: "class_dress.svg",
     sex: "sex_all.svg"
   },
@@ -28,7 +28,7 @@ const products = [
     title: "R·G YEARning",
     url: "https://market.decentraland.org/contracts/0xc2c1efd454d4e8c5f91477f63abc53fae74d2ed3/items/0",
     source: "Polygon",
-    prize: 100,
+    prize: 50,
     class: "class_dress.svg",
     sex: "sex_male.svg"
   },
@@ -37,7 +37,7 @@ const products = [
     title: "R·G YEARning",
     url: "https://market.decentraland.org/contracts/0xc2c1efd454d4e8c5f91477f63abc53fae74d2ed3/items/1",
     source: "Polygon",
-    prize: 100,
+    prize: 50,
     class: "class_pants.png",
     sex: "sex_male.svg"
   }

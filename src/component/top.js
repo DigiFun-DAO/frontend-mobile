@@ -4,6 +4,9 @@ import '../App.css';
 import Header from "./header";
 
 class Top extends React.Component {
+  state = {
+    button_selected: [false, false]
+  }
 
   scrollToAnchor = (anchorName) => {
     if (anchorName) {
@@ -41,15 +44,27 @@ class Top extends React.Component {
           </div>
           <div className="slogan_buttons">
             <a href="https://discord.gg/6tArQY6WGu">
-              <img className="slogan_buttons_join"
-                   src={require("../assets/Button-Join.svg").default}
+              <img className={this.state.button_selected[0] ? "slogan_buttons_join_selected" : "slogan_buttons_join"}
+                src={require("../assets/Button-Join.svg").default}
                    style={{cursor: 'pointer'}}
+                   onMouseEnter={() => {
+                     this.setState({button_selected: [true, false]})
+                   }}
+                   onMouseLeave={() => {
+                     this.setState({button_selected: [false, false]})
+                   }}
               />
             </a>
             <a href="https://snapshot.org/#/digifun.eth">
-              <img className="slogan_buttons_voting"
+              <img className={this.state.button_selected[1] ? "slogan_buttons_voting_selected" : "slogan_buttons_voting"}
                    src={require("../assets/Button-Voting.svg").default}
                    style={{cursor: 'pointer'}}
+                   onMouseEnter={() => {
+                     this.setState({button_selected: [false, true]})
+                   }}
+                   onMouseLeave={() => {
+                     this.setState({button_selected: [false, false]})
+                   }}
               />
             </a>
           </div>

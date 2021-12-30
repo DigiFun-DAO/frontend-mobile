@@ -30,6 +30,7 @@ class Header extends React.Component {
   }
 
   render() {
+    console.log(window.temp)
     return (
       <div className="header">
         <img className="logo" src={require("../assets/logo.svg").default}
@@ -59,7 +60,6 @@ class Header extends React.Component {
                   onClick={() => {
                     history.push('/')
                     window.location.reload()
-                    this.scrollToAnchor("DAO")
                   }}>
             <div className={this.state.button_selected[1] === true ? "word_selected" : "word_empty"}>DAO</div>
           </button>
