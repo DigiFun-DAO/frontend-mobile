@@ -10,6 +10,7 @@ import {
   Route
 } from "react-router-dom"
 import ProductContent from "./component/product/productContent";
+import ProductDetail from "./component/product/productDetail";
 import About from "./component/about/about";
 
 
@@ -19,6 +20,7 @@ render(
     <Routes>
       <Route path={"" + "/"} element={<App />}/>
       <Route path={"" + "/product"} element={<ProductContent />}/>
+      <Route path={"" + "/product/detail/:id"} element={<ProductDetail />}/>
       <Route path={"" + "/about"} element={<About />}/>
 
     </Routes>

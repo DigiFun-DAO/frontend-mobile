@@ -35,3 +35,12 @@
 
     color: rgba(18, 17, 39, 0.56);
 }
+
+.words_email{
+    font-family: Poppins-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 180%;
+    color: #A22873;
+}

@@ -3,6 +3,7 @@ import './about.css';
 import '../../App.css'
 import Header from "../header";
 import Footer from "../footer";
+import {bottomNavigationActionClasses} from "@mui/material";
 
 class About extends React.Component {
   render() {
@@ -27,12 +28,10 @@ class About extends React.Component {
             <div className="words">
               DigiFun will expand different platform markets, serve more people with creative ideas, and establish a platform to display and sell NFTs. DigiFun is committed to exploring the possibilities of more cutting-edge technologies and digital articrafts in future, and working with all of you to build the digital future.
             </div>
-            <div className="words">
+            <div className="subtitle" style={{marginBottom: "30px"}}>
               For business or press enquiries：
             </div>
-            <div className="words">
-              Contact us：official@digifundao.com
-            </div>
+            <div><span className="words">Contact us：</span><span className="words_email">official@digifundao.com</span></div>
           </div>
         </div>
         <Footer/>

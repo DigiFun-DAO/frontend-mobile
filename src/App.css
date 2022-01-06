@@ -714,8 +714,7 @@
     position: absolute;
     width: 100%;
     height: 228px;
-    /*left: 0px;*/
-    /*top: 2350px;*/
+
 
     background: #F9F9FB;
 }
@@ -813,7 +812,7 @@
     width: 260px;
     height: 25px;
     margin: 0 auto;
-    margin-top: 185px;
+    top: 185px;
 
     /* Body / sm */
 
