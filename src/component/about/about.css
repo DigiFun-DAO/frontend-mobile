@@ -1,6 +1,6 @@
 .about_content {
     width: 100vw;
-    height: 140vh;
+    height: 250vw;
     background: #FFFFFF;
 }
 
@@ -28,7 +28,7 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 2vw;
+    font-size: 3.2vw;
     line-height: 150%;
     /* or 36px */
 
