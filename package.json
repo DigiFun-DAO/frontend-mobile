@@ -1,5 +1,5 @@
 {
-  "name": "hackervalley-frontend",
+  "name": "digifun-frontend-mobile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@uiw/react-tabs": "^4.9.7",
+    "antd-mobile": "^5.0.0-rc.15",
     "assert": "2.0.0",
     "buffer": "6.0.3",
     "events": "3.3.0",

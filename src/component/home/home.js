@@ -6,13 +6,6 @@ import Footer from "../footer";
 import Header from "../header";
 
 class Home extends React.Component {
-  componentDidMount() {
-  }
-
-  componentWillUnmount() {
-  }
-
-
   render() {
     return (
       <div>

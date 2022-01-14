@@ -3,13 +3,13 @@ import './product.css';
 import '../../App.css'
 import Header from "../header";
 import Footer from "../footer";
-import { useNavigate } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 global.products = [
   {
     id: 0,
     imgPath: "product1.png",
-    detailPath: ["product1_detail1.png","product1_detail2.png","product1_detail3.png","product1_detail4.png","product1_detail5.png"],
+    detailPath: ["product1_detail1.png", "product1_detail2.png", "product1_detail3.png", "product1_detail4.png", "product1_detail5.png"],
     title: "Evil Snowman",
     url: "https://market.decentraland.org/contracts/0x622a009f894bf7c6ba069a31217be23f327e95de/items/0",
     source: "Polygon",
@@ -24,7 +24,7 @@ global.products = [
   {
     id: 1,
     imgPath: "product2.png",
-    detailPath: ["product2_detail1.png","product2_detail2.png","product2_detail3.png","product2_detail4.png","product2_detail5.png"],
+    detailPath: ["product2_detail1.png", "product2_detail2.png", "product2_detail3.png", "product2_detail4.png", "product2_detail5.png"],
     title: "Evil Snowman",
     url: "https://market.decentraland.org/contracts/0x622a009f894bf7c6ba069a31217be23f327e95de/items/1",
     source: "Polygon",
@@ -39,7 +39,7 @@ global.products = [
   {
     id: 2,
     imgPath: "product3.png",
-    detailPath: ["product3_detail1.png","product3_detail2.png","product3_detail3.png","product3_detail4.png","product3_detail5.png"],
+    detailPath: ["product3_detail1.png", "product3_detail2.png", "product3_detail3.png", "product3_detail4.png", "product3_detail5.png"],
     title: "R·G YEARning",
     url: "https://market.decentraland.org/contracts/0xc2c1efd454d4e8c5f91477f63abc53fae74d2ed3/items/0",
     source: "Polygon",
@@ -54,7 +54,7 @@ global.products = [
   {
     id: 3,
     imgPath: "product4.png",
-    detailPath: ["product4_detail1.png","product4_detail2.png","product4_detail3.png","product4_detail4.png","product4_detail5.png"],
+    detailPath: ["product4_detail1.png", "product4_detail2.png", "product4_detail3.png", "product4_detail4.png", "product4_detail5.png"],
     title: "R·G YEARning",
     url: "https://market.decentraland.org/contracts/0xc2c1efd454d4e8c5f91477f63abc53fae74d2ed3/items/1",
     source: "Polygon",
@@ -70,10 +70,11 @@ global.products = [
 
 class ProductContentList extends React.Component {
   routerTo(v) {
-    this.props.navigate(`/product/detail/${v.id}`, {state: v})
+    window.location.href = v.url
+    // this.props.navigate(`/product/detail/${v.id}`, {state: v})
   }
 
-    render() {
+  render() {
     return (
       <div className="product_content_frame">
         <Header/>
@@ -86,7 +87,7 @@ class ProductContentList extends React.Component {
           </div>
           <div className="product_card_frame">
             {global.products.map((item, idx) => (
-              <div onClick={()=>this.routerTo(item)}>
+              <div onClick={() => this.routerTo(item)}>
                 <div className="product_card">
                   <div className="product_content_img_frame">
                     <img src={require('../../assets/' + item.imgPath).default} width={item.width}/>
@@ -118,7 +119,7 @@ class ProductContentList extends React.Component {
 
 function ProductContent(props) {
   let navigate = useNavigate();
-  return <ProductContentList {...props} navigate={navigate} />
+  return <ProductContentList {...props} navigate={navigate}/>
 }
 
 export default ProductContent;
