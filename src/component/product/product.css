@@ -17,7 +17,7 @@
     position: relative;
     margin: 0 auto;
     width: 90vw;
-    top: 13vh;
+    top: 15vh;
 }
 
 .product_content_words_title {
@@ -28,7 +28,7 @@
     font-family: Poppins-Bold;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 7vw;
     line-height: 140%;
     /* or 67px */
     text-align: center;
@@ -45,7 +45,7 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 3vw;
     line-height: 180%;
     /* or 32px */
 
@@ -95,9 +95,9 @@
     box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
     border-radius: 12px;
 
-    min-width: 150px;
-    margin-left: 20px;
-    margin-top: 20px;
+    /*min-width: 150px;*/
+    margin-left: 4vw;
+    margin-top: 4vw;
 }
 
 .product_content_img_frame {

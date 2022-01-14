@@ -28,7 +28,7 @@ class About extends React.Component {
             <div className="words">
               DigiFun will expand different platform markets, serve more people with creative ideas, and establish a platform to display and sell NFTs. DigiFun is committed to exploring the possibilities of more cutting-edge technologies and digital articrafts in future, and working with all of you to build the digital future.
             </div>
-            <div className="subtitle" style={{marginBottom: "30px"}}>
+            <div className="subtitle" style={{marginBottom: "1vh"}}>
               For business or press enquiries：
             </div>
             <div><span className="words">Contact us：</span><span className="words_email">official@digifundao.com</span></div>
