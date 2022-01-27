@@ -24,14 +24,20 @@ class Product extends React.Component {
           <img className="product_others" src={require("../../assets/others.svg").default}/>
           <img className="product_avatars" src={require("../../assets/avatars.svg").default}/>
         </div>
-        <img className="button_explore_selected"
-             src={require("../../assets/Button-Explore.svg").default}
-             style={{cursor: 'pointer'}}
-             onClick={() => {
-               history.push('/#/product')
-               window.location.reload()
-             }}
-        />
+        <button className="button_explore_selected" onClick={() => {
+          history.push('/#/product')
+          window.location.reload()
+        }}>
+          <div className="DAO_button_words">Explore →</div>
+        </button>
+        {/*<img className="button_explore_selected"*/}
+        {/*     src={require("../../assets/Button-Explore.svg").default}*/}
+        {/*     style={{cursor: 'pointer'}}*/}
+        {/*     onClick={() => {*/}
+        {/*       history.push('/#/product')*/}
+        {/*       window.location.reload()*/}
+        {/*     }}*/}
+        {/*/>*/}
       </div>
     );
   }

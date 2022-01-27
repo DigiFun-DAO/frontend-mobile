@@ -16,10 +16,10 @@ class DAO extends React.Component {
         <img className="comment2" src={require("../../assets/comment2.png").default}/>
         <img className="comment3" src={require("../../assets/comment3.png").default}/>
         <img className="saly" src={require("../../assets/saly1.png").default}/>
-        <a href="https://snapshot.org/#/digifun.eth">
-          <img className="DAO_button"
-               src={require("../../assets/Button-DAO-Voting.svg").default}
-          />
+        <a href="https://snapshot.org/#/digifun.eth" style={{width: "100vw"}}>
+          <button className="DAO_button">
+            <div className="DAO_button_words">Voting →</div>
+          </button>
         </a>
       </div>
     );
